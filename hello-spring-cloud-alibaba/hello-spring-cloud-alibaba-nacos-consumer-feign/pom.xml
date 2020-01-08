@@ -10,12 +10,12 @@
     <relativePath />
   </parent>
 
-  <artifactId>hello-spring-cloud-alibaba-nacos-provider</artifactId>
+  <artifactId>hello-spring-cloud-alibaba-nacos-consumer-feign</artifactId>
   <packaging>jar</packaging>
 
-  <name>hello-spring-cloud-alibaba-nacos-provider</name>
-  <url>http://www.funtl.com</url>
-  <inceptionYear>2018-Now</inceptionYear>
+  <name>hello-spring-cloud-alibaba-nacos-consumer-feign</name>
+  <url>http://www.wdaking.com</url>
+  <inceptionYear>2020-Jan</inceptionYear>
 
   <dependencies>
     <!-- Spring Boot Begin -->
@@ -39,6 +39,10 @@
       <groupId>com.alibaba.cloud</groupId>
       <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
     </dependency>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-openfeign</artifactId>
+    </dependency>
     <!-- Spring Cloud End -->
   </dependencies>
 
@@ -48,7 +52,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
-          <mainClass>com.wdaking.hello.spring.cloud.alibaba.nacos.provider.NacosProviderApplication</mainClass>
+          <mainClass>com.funtl.hello.spring.cloud.alibaba.nacos.consumer.feign.NacosConsumerFeignApplication</mainClass>
         </configuration>
       </plugin>
     </plugins>
