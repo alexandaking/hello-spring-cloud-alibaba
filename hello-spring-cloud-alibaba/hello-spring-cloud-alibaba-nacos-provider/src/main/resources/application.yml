@@ -4,7 +4,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 10.86.85.157:8848
+        server-addr: 212.64.24.88:8848
 
 server:
   port: 8081
